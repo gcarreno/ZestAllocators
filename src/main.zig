@@ -1,7 +1,7 @@
 const std = @import("std");
 const expect = std.testing.expect;
 
-//pub fn main() !void {}
+pub fn main() !void {}
 
 test "Test General Purpose" {
     var gpa = std.heap.GeneralPurposeAllocator(.{}){};
